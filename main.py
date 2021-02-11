@@ -17,7 +17,7 @@ def removeLast(w, x):
 def sumBetweenOdd(x, y):
     
     q = 0
-    for i in range(x + 1, y - 1):
+    for i in range(x + 1, y):
         if(i % 2 != 0):
             print("{0}".format(i))
             q = q + i
@@ -29,3 +29,4 @@ def firstLast(w):
     else:
         return False
     
+print(sumBetweenOdd(0, 10))
