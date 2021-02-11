@@ -5,11 +5,11 @@ def countB(w):
             r = r + 1
     return r
 
-def removeLast(w, x):
+def removeLast(w):
     e = 0
     for i in w:
-        e = e + 1
-    return e - x
+        e = e 
+    return e
     
 
 
@@ -29,4 +29,4 @@ def firstLast(w):
     else:
         return False
     
-print(sumBetweenOdd(0, 10))
+print(removeLast("shovel"))
